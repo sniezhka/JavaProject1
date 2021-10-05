@@ -1,4 +1,4 @@
-package com.student.example.model;
+package com.student.model;
 
 public class Student {
 	private int id;
@@ -37,9 +37,4 @@ public class Student {
 		return lastName;
 	}
 	
-	public void edit(String firstName, String middleName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.middleName = middleName;
-	}
 }
