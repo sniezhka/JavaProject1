@@ -14,6 +14,7 @@ public class Student {
 		this.middleName = middleName;
 		this.lastName = lastName;
 	}
+	
 	public Student(String firstName, String middleName, String lastName) {
 		this.firstName = firstName;
 		this.middleName = middleName;
@@ -24,7 +25,6 @@ public class Student {
 		return id;
 	}
 
-	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -36,5 +36,4 @@ public class Student {
 	public String getLastName() {
 		return lastName;
 	}
-	
 }

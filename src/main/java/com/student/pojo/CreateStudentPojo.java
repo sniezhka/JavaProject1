@@ -5,7 +5,6 @@ public class CreateStudentPojo {
 	private String middleName;
 	private String lastName;
 	
-	
 	public String getFirstName() {
 		return firstName;
 	}
